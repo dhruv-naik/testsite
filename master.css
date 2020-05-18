@@ -223,24 +223,22 @@ nav ul li a {
   display: none;
 }
 
-.title1 {
-  padding-top: 10vh;
-  align-items: center;
+.maintxt {
   display: flex;
-  padding-right: 10vw;
-  padding-left: 20vw;
+  align-items: center;
+  padding-top: 10vh;
+  padding-left: 37vw;
+  font-size: 50px;
 }
-.img {
-  width: 50vw;
-}
+
 .content {
   align-items: center;
 }
-@media screen and (max-width: 864px) {
-  .form {
-    width: 70vw;
-    align-self: center;
-  }
+
+.paybtn {
+  padding-left: 40vw;
+  display: flex;
+  align-items: center;
 }
 .footer {
   background-color: darkgray;
@@ -253,4 +251,22 @@ nav ul li a {
 }
 .space {
   padding-top: 10vh;
+}
+@media screen and (max-width: 864px) {
+  .form {
+    width: 70vw;
+    align-items: center;
+    padding-left: 20vw;
+  }
+  .paybtn {
+    padding-left: 30vw;
+  }
+  .footer {
+    font-size: 10px;
+    padding-left: 30vw;
+  }
+  .maintxt {
+    font-size: 50px;
+    padding-left: 15vw;
+  }
 }
